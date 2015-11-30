@@ -31,3 +31,11 @@ Run the crate container::
 In a separate shell run the webapp container::
 
     docker run -p 8080:8080 --link db:db -t -i --rm webapp
+
+
+Using Docker-Compose
+====================
+
+Instead of executing the steps above manually it is also possible to just use docker-compose::
+
+    docker-compose up
